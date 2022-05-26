@@ -1,0 +1,9 @@
+/**
+ * @param {number[]} nums
+ * @return {number[]}
+ */
+var getConcatenation = function(nums) {
+ var arr_one = nums;
+    var ans = (arr_one).concat(arr_one)
+    return ans;
+};
