@@ -1,0 +1,14 @@
+var runningSum = function(nums) {
+    {
+    let summ=0
+    let number=[]
+    for(let i=0;i<nums.length;i++)
+    {
+let s=nums[i]
+summ=summ+s;
+number.push(summ)
+    }
+    return number;
+}
+    
+};
